@@ -314,26 +314,9 @@ h6{font-size: 16px;}
   font-size: 14px;
 }
 
-/*.workexp1{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
-  align-items: center;
-}*/
-
-
-
-/*.experience{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
-
-  }*/
-
-/*.workexp-title{
-  height: 0;
-}*/
-
 .certificate-title{
   height: 0;
+  padding-left: 20px;
 }
 
 .certificatesList{
@@ -348,6 +331,7 @@ h6{font-size: 16px;}
   -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   vertical-align: center;
+  padding: 20px;
 }
 
 .certificates{
@@ -363,8 +347,8 @@ h6{font-size: 16px;}
 }
 
 .work-exp-image{
-  width: 400px;
-  height: 150px;
+  width: 500px;
+  height: 200px;
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
