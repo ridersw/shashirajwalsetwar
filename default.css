@@ -314,27 +314,23 @@ h6{font-size: 16px;}
   font-size: 14px;
 }
 
-.workexp1{
+/*.workexp1{
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   align-items: center;
-}
+}*/
 
-.work-exp-image{
-  width: 250px;
-  -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-  box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-  vertical-align: center;
-}
 
-.experience{
-  display: flex;
-  }
 
-.workexp-title{
+/*.experience{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+
+  }*/
+
+/*.workexp-title{
   height: 0;
-}
+}*/
 
 .certificate-title{
   height: 0;
@@ -342,7 +338,7 @@ h6{font-size: 16px;}
 
 .certificatesList{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-columns: repeat(auto-fit, 50%);
   align-items: center;
 }
 
@@ -358,20 +354,30 @@ h6{font-size: 16px;}
   display: flex;
   }
 
+  /*Work Experience*/
+
+.work-exp{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
+  align-items: center;
+}
+
+.work-exp-image{
+  width: 400px;
+  height: 150px;
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media screen and (max-width: 1200px){
   .main-container{
     width: 95%;
   }
 }
-
-.work-exp-desc li{
-  text-decoration: ;
-}
-
-
-
-
 
 
 @media screen and (max-width: 800px){
@@ -388,5 +394,6 @@ h6{font-size: 16px;}
   }
 
 }
+
 
 
