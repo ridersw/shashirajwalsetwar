@@ -66,6 +66,7 @@ a{
 
 ul {
   list-style: none;
+  padding-left: 10;
 }
 
 h1{font-size: 56px;}
@@ -274,7 +275,7 @@ h6{font-size: 16px;}
 
 #skills{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   background-color: var(--previewShadow);
 }
 
@@ -369,7 +370,7 @@ h6{font-size: 16px;}
 }
 
 .work-exp-desc{
-  padding-left: 20px;
+  padding-left: 5;
   flex: 1
 }
 
@@ -411,5 +412,7 @@ h6{font-size: 16px;}
     }
 
 }
+
+
 
 
