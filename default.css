@@ -318,13 +318,14 @@ h6{font-size: 16px;}
 .certificate-title{
   height: 0;
   padding-left: 20px;
+  padding-bottom: 20px;
+  height: 0;
 }
 
 .certificatesList{
   display: grid;
   grid-template-columns: repeat(auto-fit, 50%);
   align-items: center;
-  max-width: 90%;
 }
 
 .certificate-image{
@@ -337,19 +338,19 @@ h6{font-size: 16px;}
 }
 
 .certificates{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-  padding-bottom: 50px;
-  padding-top: 50px;
+  display: flex;
   }
 
   /*Work Experience*/
 
 .work-exp{
-  display: grid;
+  /*display: grid;
   grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
   align-items: center;
-  max-width: 95%;
+  max-width: 95%;*/
+  display: flex;
+  padding: 20px;
+  flex: 1
 }
 
 .work-exp-image{
@@ -361,8 +362,15 @@ h6{font-size: 16px;}
   -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: auto;
+  flex: 1
+}
+
+.work-exp-desc{
+  padding-left: 20px;
+  flex: 1
 }
 
 @media screen and (max-width: 1200px){
@@ -388,5 +396,20 @@ h6{font-size: 16px;}
 
 }
 
+@media (max-width: 500px) {
+    .certificates {
+        flex-direction: column;
+        padding-bottom: 10px;    
+    }
+
+}
+
+@media (max-width: 700px) {
+    .work-exp {
+        flex-direction: column;
+        padding-bottom: 10px;    
+    }
+
+}
 
 
