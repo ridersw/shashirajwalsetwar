@@ -27,6 +27,7 @@ body *{
 html, body {
   margin: 0;
   padding: 0;
+  justify-content: space-around;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -323,6 +324,7 @@ h6{font-size: 16px;}
   display: grid;
   grid-template-columns: repeat(auto-fit, 50%);
   align-items: center;
+  max-width: 90%;
 }
 
 .certificate-image{
@@ -344,6 +346,7 @@ h6{font-size: 16px;}
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
   align-items: center;
+  max-width: 95%;
 }
 
 .work-exp-image{
@@ -377,6 +380,7 @@ h6{font-size: 16px;}
   }
   .right-column{
     justify-content: center;
+    max-width: 90%;
   }
 
 }
