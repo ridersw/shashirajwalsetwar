@@ -281,7 +281,7 @@ h6{font-size: 16px;}
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   gap: 20px;
-  justify-content: center;
+  justify-content: left;
   padding-bottom: 50px;
 }
 
@@ -343,7 +343,7 @@ h6{font-size: 16px;}
 .work-exp{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
-  align-items: center;
+  align-items: left;
 }
 
 .work-exp-image{
@@ -355,6 +355,7 @@ h6{font-size: 16px;}
   display: block;
   margin-left: auto;
   margin-right: auto;
+  align-items: left;
 }
 
 @media screen and (max-width: 1200px){
