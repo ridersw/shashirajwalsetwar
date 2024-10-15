@@ -34,7 +34,7 @@ function App() {
         </section>
       </main>
       <footer className="bg-indigo-800 text-white py-4 text-center relative z-10">
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Shashiraj Walsetwar. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -31,7 +31,9 @@ function Introduction() {
             <BookOpen className="mr-2" />
             <p>
               While programming and teaching keep me busy most of the time, I do
-              take time off to learn new and exciting things.
+              take time off to learn new and exciting things. Currently, I'm
+              working on this mind-blowing LLM project, exploring the cutting
+              edge of artificial intelligence.
             </p>
           </div>
           <div className="flex items-center text-indigo-600 font-medium">
