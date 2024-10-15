@@ -56,9 +56,8 @@ function Contact() {
             </li>
             <li>
               <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                download="ShashirajWalsetwar_Resume.pdf"
                 className="flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-300"
               >
                 <FileText className="mr-2" />
