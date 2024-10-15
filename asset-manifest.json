@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shashirajwalsetwar.github.io/static/css/main.ce51fe69.css",
-    "main.js": "/shashirajwalsetwar.github.io/static/js/main.1f1ac70a.js",
+    "main.js": "/shashirajwalsetwar.github.io/static/js/main.602b236f.js",
     "static/js/453.acca0757.chunk.js": "/shashirajwalsetwar.github.io/static/js/453.acca0757.chunk.js",
     "index.html": "/shashirajwalsetwar.github.io/index.html",
     "main.ce51fe69.css.map": "/shashirajwalsetwar.github.io/static/css/main.ce51fe69.css.map",
-    "main.1f1ac70a.js.map": "/shashirajwalsetwar.github.io/static/js/main.1f1ac70a.js.map",
+    "main.602b236f.js.map": "/shashirajwalsetwar.github.io/static/js/main.602b236f.js.map",
     "453.acca0757.chunk.js.map": "/shashirajwalsetwar.github.io/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce51fe69.css",
-    "static/js/main.1f1ac70a.js"
+    "static/js/main.602b236f.js"
   ]
 }
